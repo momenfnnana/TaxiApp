@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "expoTaxiApp",
+    "scheme": "expotaxiapp",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -25,7 +25,12 @@
     },
     "android": {
       "package": "com.momenfnnana",
-      "versionCode": 1
+      "versionCode": 1,
+      "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyA7LZ6ichq-egozDL_r4CX0iZqKBr2zXA4"
+      }
+    }
     },
     "web": {
       "favicon": "./assets/favicon.png"
